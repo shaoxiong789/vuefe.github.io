@@ -1214,7 +1214,7 @@ if (version === 2) {
 
 - **详细：**
 
-  Used to programmatically access [scoped slots](../guide/components.html#Scoped-Slots). For each slot, including the `default` one, the object contains a corresponding function that returns VNodes.
+  使用函数声明 [作用域 slots](../guide/components.html#作用域插槽). 在所有 slot 中, 允许存在一个默认的 slot
 
   Accessing `vm.$scopedSlots` is most useful when writing a component with a [render function](../guide/render-function.html).
 
